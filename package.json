@@ -1,0 +1,16 @@
+{
+  "name": "chill-and-go",
+  "version": "1.0.0",
+  "description": "The easy and fresh way to discover new activies near you.",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "keywords": [],
+  "author": "Armand Malinvaud, Mattis Witschi",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "devDependencies": {
+    "turbo": "^1.10.7"
+  }
+}
