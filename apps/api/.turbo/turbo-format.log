@@ -1,0 +1,15 @@
+
+
+> @chill-and-go/api@1.0.0 format /Users/armand_malinvaud/Documents/1 - Projets/chill-and-go/apps/api
+> prettier --write .
+
+.prettierignore[2K[1G.prettierrc[2K[1G[90m.prettierrc[39m 25ms (unchanged)
+.turbo/turbo-format.log[2K[1Gpackage.json[2K[1G[90mpackage.json[39m 2ms (unchanged)
+src/backend.controller.spec.ts[2K[1G[90msrc/backend.controller.spec.ts[39m 27ms (unchanged)
+src/backend.controller.ts[2K[1G[90msrc/backend.controller.ts[39m 3ms (unchanged)
+src/backend.module.ts[2K[1G[90msrc/backend.module.ts[39m 2ms (unchanged)
+src/backend.service.ts[2K[1G[90msrc/backend.service.ts[39m 1ms (unchanged)
+src/main.ts[2K[1G[90msrc/main.ts[39m 3ms (unchanged)
+test/app.e2e-spec.ts[2K[1Gtest/app.e2e-spec.ts 3ms
+test/jest-e2e.json[2K[1G[90mtest/jest-e2e.json[39m 1ms (unchanged)
+tsconfig.json[2K[1Gtsconfig.json 1ms

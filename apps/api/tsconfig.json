@@ -1,0 +1,8 @@
+{
+  "extends": "@chill-and-go/typescript-config/nestjs.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

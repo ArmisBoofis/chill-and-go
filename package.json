@@ -1,25 +1,24 @@
 {
-  "name": "chill-and-go",
-  "version": "1.0.0",
-  "description": "The easy and fresh way to discover new activies near you.",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev"
+    "format": "turbo run format",
+    "format:check": "turbo run format:check",
+    "check-types": "turbo run check-types",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "format:api": "turbo run format --filter=@chill-and-go/api",
+    "format:check:api": "turbo run format:check --filter=@chill-and-go/api",
+    "check-types:api": "turbo run check-types --filter=@chill-and-go/api",
+    "dev:api": "turbo run dev --filter=@chill-and-go/api",
+    "lint:api": "turbo run lint --filter=@chill-and-go/api",
+    "build:api": "turbo run build --filter=@chill-and-go/api"
   },
-  "keywords": [],
-  "author": "Armand Malinvaud, Mattis Witschi",
-  "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
-    "@types/node": "^22.13.4",
-    "ts-node": "^10.9.2",
-    "turbo": "^1.10.7",
-    "typescript": "^5.7.3"
+    "turbo": "latest"
   },
   "pnpm": {
-    "ignoredBuiltDependencies": [
-      "@nestjs/core"
-    ],
     "onlyBuiltDependencies": [
       "@nestjs/core"
     ]

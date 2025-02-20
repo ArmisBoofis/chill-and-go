@@ -1,11 +1,21 @@
 {
-  "pipeline": {
+  "tasks": {
+    "format": {
+      "dependsOn": []
+    },
+    "format:check": {
+      "dependsOn": []
+    },
+    "check-types": {
+      "dependsOn": []
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
-    },
-    "dev": {
-      "cache": false
     }
   }
 }
