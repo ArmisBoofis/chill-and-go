@@ -1,19 +1,19 @@
 {
   "monorepo": true,
-  "root": "apps/backend",
-  "sourceRoot": "apps/backend/src",
+  "root": "apps/api",
+  "sourceRoot": "apps/api/src",
   "compilerOptions": {
-    "webpack": true,
-    "tsConfigPath": "apps/backend/tsconfig.app.json"
+    "webpack": false,
+    "tsConfigPath": "apps/api/tsconfig.json"
   },
   "projects": {
-    "backend": {
+    "api": {
       "type": "application",
-      "root": "apps/backend",
+      "root": "apps/api",
       "entryFile": "main",
-      "sourceRoot": "apps/backend/src",
+      "sourceRoot": "apps/api/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/backend/tsconfig.app.json"
+        "tsConfigPath": "apps/api/tsconfig.json"
       }
     }
   }

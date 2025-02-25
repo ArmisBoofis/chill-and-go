@@ -14,7 +14,7 @@
     "lint:api": "turbo run lint --filter=@chill-and-go/api",
     "build:api": "turbo run build --filter=@chill-and-go/api"
   },
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.0",
   "devDependencies": {
     "turbo": "latest"
   },
